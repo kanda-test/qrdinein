@@ -1,0 +1,108 @@
+.application-feature-container-div {
+  display: flex;
+  margin-top: 7rem;
+}
+.application-feature-rightside-div {
+  width: 50%;
+}
+
+.application-feature-leftside-div {
+  width: 50%;
+}
+
+/* css of card */
+
+.custom-icon-div-1 {
+  /* height: 30px;
+  width: 100px; */
+  margin-top: 20px;
+  font-size: 40px;
+  color: rgba(234, 165, 129, 1);
+}
+.custom-icon-div-2 {
+  /* height: 30px;
+  width: 100px; */
+  margin-top: 20px;
+  font-size: 40px;
+  color: rgba(216, 236, 183, 1);
+}
+.custom-icon-div-3 {
+  height: 30px;
+  width: 100px;
+  margin-top: 20px;
+  font-size: 35px;
+  color: rgba(216, 58, 106, 1);
+}
+.custom-icon-div-4 {
+  height: 30px;
+  width: 100px;
+  margin-top: 20px;
+  font-size: 35px;
+  color: rgba(91, 139, 124, 1);
+}
+.custom-para-div {
+  font-size: 0.9rem;
+  color: #3e4442;
+  margin-top: 30px;
+}
+.custom-text-div {
+  font-size: 0.75rem;
+  margin-top: 25px;
+  color: #767272;
+}
+
+.custom-div {
+  padding: 1rem;
+  margin: 1.5rem;
+  width: 190px;
+}
+
+.features-cards-div1 {
+  margin-top: 5rem;
+  margin-right: 1.5rem;
+}
+
+.features-cards-div2 {
+  margin-top: 0;
+}
+
+.features-card-outer-div-container {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+/* right side div css */
+
+.Newsletter-container-heading-div {
+  font-size: 1.5rem;
+  color: #3e4442;
+}
+.Newsletter-container-subheading-div {
+  margin-top: 50px;
+  font-size: 1rem;
+  color: #3e4442;
+}
+.Newsletter-container-para-div-1 {
+  font-size: 0.8rem;
+  margin-top: 40px;
+  color: #767272;
+}
+.Newsletter-container-para-div-2 {
+  font-size: 0.8rem;
+  margin-top: 20px;
+  color: #767272;
+}
+.Newsletter-click-div {
+  height: 30px;
+  width: 150px;
+  border-radius: 3px;
+  background-color: rgba(91, 139, 124, 1);
+  color: white;
+  border: none;
+  margin-top: 30px;
+}
+
+.newsletter-container {
+  margin: 8rem 0 0 10rem;
+}

@@ -1,0 +1,86 @@
+.feature-card-div {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-div {
+  background-color: gray;
+  height: 1px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.custom-card-div {
+  display: flex;
+  width: 350px;
+  margin-bottom: 1rem;
+}
+
+.box-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.text-div-1 {
+  color: gray;
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+.icon-div-1 {
+  border: 1px solid rgb(236, 190, 166);
+  font-size: x-large;
+  color: rgb(236, 190, 166);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  border-radius: 4px;
+}
+
+.icon-div-2 {
+  border: 0.1px solid gray;
+  font-size: x-large;
+  color: rgb(111, 153, 140);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  border-radius: 4px;
+}
+
+.icon-div-3 {
+  border: 1px solid rgb(255, 96, 122);
+  font-size: x-large;
+  color: rgb(255, 96, 122);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  border-radius: 4px;
+}
+
+.heading-div-1 {
+  width: 100%;
+
+  font-size: 1.25rem;
+}
+
+.heading-div-2 {
+  width: 80%;
+
+  font-size: 1.25rem;
+}
+.feature-main-div {
+  margin-top: 10rem;
+}

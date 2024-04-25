@@ -1,0 +1,191 @@
+.addressinform {
+  width: 450px;
+}
+.addressinform-div-1 {
+  color: #3e4442;
+  font-size: 2rem;
+}
+.addressinform-div-2 {
+  color: #767272;
+  margin-top: 40px;
+}
+.addressinform-div-3 {
+  color: #3e4442;
+  display: flex;
+  font-size: 0.9rem;
+}
+.addressinform-div-4 {
+  color: #3e4442;
+  display: flex;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+.addressinform-div-5 {
+  color: #3e4442;
+  display: flex;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+.addressinform-div-6 {
+  display: flex;
+  margin-top: 40px;
+}
+.addressinform-div-icon {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.addressinform-div-text {
+  margin-left: 20px;
+}
+
+.addressinform-div-container {
+  margin-top: 40px;
+}
+.contactinformation {
+  color: #3e4442;
+  font-size: 1.2rem;
+  /* padding-left: 3rem; */
+}
+.contactinformation-div {
+  color: #a3a0a0;
+  /* margin-top: 40px;
+  padding-left: 40px; */
+  margin: 1rem 0;
+}
+.contactinformation-div-container {
+  color: #767272;
+  display: flex;
+
+  margin-top: 40px;
+  padding-left: 10px;
+}
+.contactinformation-div-container-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: #5b8b7c;
+  margin: auto;
+}
+.contactinformation-div-container-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
+.contactinformation-div-container-und {
+  text-decoration: underline;
+  padding-left: 2px;
+}
+
+.contactinformation-div-container-button {
+  background-color: #5b8b7c;
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.contact-container-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.contact-form-div-container {
+  padding: 5rem 8rem;
+  background-image: url(../../assets/contactBg.png);
+  /* background-position: top; */
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.get-in-touch-div {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* download app section  */
+
+.download-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.download-container-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 1135px; */
+  width: 84.5%;
+  background-image: url(../../assets/downloadBg.png);
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5.5rem;
+}
+.download-header-div {
+  color: #3e4442;
+  font-size: 2rem;
+  margin-top: 15px;
+}
+.dowmlaod-header-line {
+  color: #767272;
+  font-size: 1rem;
+  margin-top: 30px;
+  width: 500px;
+  text-align: center;
+}
+.download-container-sub-div {
+  display: flex;
+  margin-top: 40px;
+}
+.downlaod-header-button-1 {
+  color: #ffffff;
+  display: flex;
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: #d83a6a;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.download-header-button-2 {
+  color: #d83a6a;
+  display: flex;
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  border: 1px solid #d83a6a;
+  border-radius: 5px;
+}
+
+.downlaod-header-button-icon {
+  font-size: 2.2rem;
+  width: 40px;
+  height: 40px;
+}
+.downlaod-header-button-text {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.downlaod-header-button-subtext {
+  font-size: 0.6rem;
+}
+.downlaod-header-button-subheading {
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+.download-header-footer {
+  color: #767272;
+  margin-top: 60px;
+}

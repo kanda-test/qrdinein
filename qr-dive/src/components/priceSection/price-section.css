@@ -1,0 +1,151 @@
+.price-section-container-div {
+  margin-top: 5rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.price-section-title-container-div {
+  max-width: 400px;
+  min-width: 330px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 0.5rem;
+}
+
+.price-section-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #3e4442;
+}
+
+.price-section-subtitle {
+  color: #767272;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pricetable {
+  color: #3e4442;
+  font-size: 1rem;
+}
+.pricetable-div {
+  color: #eaa581;
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.pricetable-div-line {
+  color: #767272;
+  font-size: 0.8rem;
+  margin-top: 30px;
+}
+.pricetable-div-line-user {
+  color: #767272;
+  font-size: 0.8rem;
+  margin-top: 15px;
+}
+
+.pricetable-button {
+  background-color: #eaa581;
+  border: none;
+  width: 110px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 25px;
+  color: #ffffff;
+}
+.carttable {
+  color: #3e4442;
+  font-size: 1.2em;
+}
+.cartprice-div {
+  color: #5b8b7c;
+  font-size: 2.5em;
+  font-weight: bolder;
+  margin-top: 0.7em;
+}
+.cart-line-div {
+  color: #767272;
+  font-size: 0.8em;
+  margin-top: 2em;
+}
+.cart-line-div-user {
+  color: #767272;
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
+.carttable-button {
+  background-color: #5b8b7c;
+  border: none;
+  width: 7em;
+  height: 2em;
+  border-radius: 5px;
+  margin-top: 1.5em;
+  color: #ffffff;
+}
+
+.price-section-pricetable-container-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  background-image: url('../../assets//priceListBg.png');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 100%;
+  width: 45%;
+}
+
+.free-pricetable-card {
+  position: relative;
+  right: 5.5rem;
+  z-index: 0;
+  font-size: 85%;
+  transition: 0.2s;
+}
+
+.paid-pricetable-container {
+  position: relative;
+  z-index: 2;
+}
+
+.free-pricetable-card:hover {
+  z-index: 2;
+  font-size: 100%;
+  transition-delay: 0.1s;
+}
+
+.join-our-team-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  height: 200px;
+  background-image: url('../../assets/joinBg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.join-our-team-heading {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.join-us-button {
+  padding: 0.25rem 1rem;
+  border: 1px solid white;
+  color: white;
+  font-size: 1.2rem;
+  background-color: transparent;
+}
+
+.join-us-button:hover {
+  background-color: white;
+  color: #5b8b7c;
+}

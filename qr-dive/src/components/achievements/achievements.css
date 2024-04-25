@@ -1,0 +1,258 @@
+.funfact-circle {
+  /* background-color: yellow; */
+  background-color: white;
+}
+
+.funfact {
+  margin: 2rem;
+
+  width: 150px;
+  height: 150px;
+}
+
+.funfact-circle {
+  height: 110px;
+  width: 110px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+.funfact-title {
+  width: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #3e4442;
+}
+
+.funfact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.funfact-heading-para {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.funfact-heading-div {
+  /* padding-top: 2rem; */
+  /* margin-top: 2rem; */
+  color: #3e4442;
+}
+
+.funfact-main-div {
+  background-image: url('../../assets/funfactBg.png');
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  padding: 4rem 0 6rem 0;
+  margin-top: 5rem;
+}
+
+.cricle-2,
+.cricle-4 {
+  margin-top: 4rem;
+}
+
+.newsletter-heading {
+  font-size: 2rem;
+  color: white;
+}
+.newsletter-input {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 1rem;
+  border: none;
+}
+
+.newsletter-container-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.newsletter-form-container {
+  display: flex;
+}
+.newsletter-container-div {
+  background-image: url(../../assets/newsletterBg.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  /* padding: 6rem 0; */
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+.radio-label-newsletter {
+  color: white;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
+
+.radio-btn-div-newsletter {
+  margin-top: 0.5rem;
+}
+.newsletter-summit-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 40px;
+  padding: 0 1.8rem;
+  border-radius: 5px;
+  margin-left: 2rem;
+}
+.newsletter-summit-btn:hover {
+  background-color: white;
+  color: #d83a6a;
+}
+
+.radio-btn-newsletter {
+  accent-color: #d83a6a;
+}
+
+/* Q&A section css  */
+
+.newsletter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.QuestionAnswer {
+  width: 450px;
+  margin-left: 20px;
+  margin-top: 130px;
+}
+
+.QuestionAnswer-div-1 {
+  font-size: 2rem;
+  color: #3e4442;
+}
+
+.QuestionAnswer-div-2 {
+  font-size: 1rem;
+  color: #767272;
+  margin-top: 20px;
+}
+
+.QuestionAnswer-container-div {
+  margin-top: 25px;
+}
+
+.QuestionAnswer-div-3 {
+  font-size: 1rem;
+
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #3e4442;
+  border: 2px solid #eaa581;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.QuestionAnswer-div-4 {
+  font-size: 1rem;
+  border: 2px solid #eaa581;
+  padding: 7px;
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eaa581;
+  color: #ffffff;
+  border-radius: 7px;
+}
+
+.QuestionAnswer-div-5 {
+  color: #767272;
+  font-size: 1rem;
+}
+
+.QuestionAnswer-div-6 {
+  font-size: 1 rem;
+  border-radius: 7px;
+
+  padding: 7px;
+
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-between;
+  color: #3e4442;
+  border: 2px solid #eaa581;
+  font-weight: bold;
+}
+
+.QuestionAnswer-div-7 {
+  font-size: 1rem;
+  border-radius: 7px;
+  padding: 7px;
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-between;
+  color: #3e4442;
+  border: 2px solid #eaa581;
+  font-weight: bold;
+}
+
+.QuestionAnswer-container-div-icon {
+  color: #3e4442;
+}
+
+.QuestionAnswer-container-div-icon-2 {
+  color: #ffffff;
+}
+
+.imagecontainer {
+  width: 700px;
+  height: 700px;
+  /* background: round; */
+
+  padding-top: 100px;
+  padding-left: 1rem;
+  /* margin-top: 50px; */
+  background-image: url(../../assets/q&aBg.png);
+  background-position: right;
+  /* object-fit: cover; */
+  object-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+
+  padding-bottom: 5rem;
+}
+
+.imagecontainer-div-1 {
+  height: 480px;
+  width: 270px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 4px 1px gray;
+
+  margin-left: 200px;
+  position: relative;
+  left: 170px;
+  background-color: #c4c4c4;
+  z-index: 1;
+}
+.imagecontainer-div-2 {
+  height: 170px;
+  width: 300px;
+  box-shadow: 0px 0px 4px 1px gray;
+
+  position: relative;
+  right: 90px;
+  top: 100px;
+  background-color: #c4c4c4;
+
+  z-index: 1;
+}
+
+.imagecontainer-div-1:hover {
+  z-index: 2;
+}

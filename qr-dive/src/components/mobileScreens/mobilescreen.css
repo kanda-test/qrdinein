@@ -1,0 +1,61 @@
+.mobile-screenshot-heading-div {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.mobile-screenshot-heading {
+  font-size: 1.8rem;
+  color: #3e4442;
+  margin-top: 0.5rem;
+}
+
+.mobile-screenshot {
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  box-shadow: 0px 0.5px 2.5px 2px rgba(128, 128, 128, 0.479);
+  /* transition: opacity 1s ease-in-out; */
+}
+
+.mobile-screenshot-container-div {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60%;
+  /* background-color: #3e4442; */
+}
+
+.screenshot-1 {
+  /* width: 168px;
+  height: 302px; */
+  width: 13vw;
+  height: 22vw;
+}
+
+.screenshot-2 {
+  /* width: 225px;
+  height: 405px; */
+  width: 18vw;
+  height: 32vw;
+}
+
+.screenshot-3 {
+  /* width: 186px;
+  height: 334px; */
+  width: 14vw;
+  height: 24.8vw;
+}
+
+.screenshot-4 {
+  /* width: 207px;
+  height: 373px; */
+  width: 16vw;
+  height: 28.4vw;
+}
+
+.screenshot-5 {
+  /* width: 150px;
+  height: 270px; */
+  width: 12vw;
+  height: 21.3vw;
+}

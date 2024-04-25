@@ -1,0 +1,142 @@
+.header-div {
+  height: 450px;
+  /* width: 1920px; */
+
+  background-image: url(../../assets/headerBackground.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: contain;
+}
+
+.overlay-div {
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-div {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlink-div {
+  display: flex;
+}
+.menu-element {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.navbar-text {
+  margin-right: 2rem;
+  font-size: 20px;
+  color: #37594e;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navbar-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  color: white;
+  background-color: #5b8b7c;
+  border: none;
+}
+
+.navbar-button-div {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-content-div {
+  /* margin: 10rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /* new */
+  align-items: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.header-content-subheading {
+  color: #5b8b7c;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-content-heading {
+  color: #37594e;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header-content-button {
+  background-color: #37594e;
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  transition: opacity 10s ease-in-out;
+}
+.header-content-button:hover {
+  /* background-color: white;
+  color: #37594e; */
+  font-size: 1.001rem;
+  transition-delay: 0.2s;
+}
+
+.header-screens {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 7.5rem;
+  margin-left: 2.5rem;
+}
+
+.mobile-screen-1 {
+  width: 150px;
+  height: 270px;
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  position: relative;
+  bottom: 5rem;
+  left: 2.5rem;
+  box-shadow: 0px 0.5px 2.5px 2px rgba(128, 128, 128, 0.479);
+  z-index: 0;
+  /* transition: opacity 1s ease-in-out; */
+}
+.mobile-screen-1:hover,
+.mobile-screen-2:hover,
+.mobile-screen-3:hover {
+  z-index: 2;
+  /* transition-delay: 0.15s; */
+  /* background-color: red; */
+}
+
+.mobile-screen-2 {
+  width: 210px;
+  height: 370px;
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  position: relative;
+  top: 5rem;
+  box-shadow: 0px 0.5px 2.5px 2px rgba(128, 128, 128, 0.479);
+  z-index: 1;
+  /* transition: opacity 0.3s ease-in-out; */
+}
+.mobile-screen-3 {
+  width: 180px;
+  height: 320px;
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  position: relative;
+  right: 2rem;
+  box-shadow: 0px 0.5px 2.5px 2px rgba(128, 128, 128, 0.479);
+  z-index: 0;
+  /* transition: opacity 0.3s ease-in-out; */
+}
